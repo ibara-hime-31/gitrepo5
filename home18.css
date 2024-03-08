@@ -1,0 +1,164 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    position: sticky;
+    top:0px;
+}
+.nav .starnav img{
+    height:30px;
+}
+.nav .midnav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav .midnav ul li a {
+    text-decoration: none;
+    padding:30px;
+    color:rgb(32,32,51);
+}
+.nav .midnav ul li{
+    list-style-type: none;
+}
+.nav .endnav a{
+    text-decoration: none;
+    background-color:rgb(32,32,51);
+    color: white;
+    padding:10px 20px 10px 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    border:2px solid rgb(32,32,51);
+}
+.hero .hero1{
+    padding-top: 300px;
+}
+
+.hero .hero1 .hero11 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+.hero .hero2{
+    padding-top: 200px;
+}
+.hero .hero2 img{
+    height:500px;
+    position: relative;
+    z-index: 2;
+}
+#owsomes{
+    position: absolute;
+    top:600px;
+    left:1200px;
+    z-index:3;
+}
+#owsomes i{
+    font-size: 24px;
+    margin:10px;
+    background-color: white;
+    border-radius: 50%;
+    padding:20px;
+    color: blue;
+}
+#dedication{
+    /* border: 20px dashed black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.clienth1{
+    background-color: rgb(32,32,51);
+    margin:0px;
+    color:white;
+    padding:50px;
+    font-size: 24px;
+}
+.clients{
+    background-color: rgb(32,32,51);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.clients div img{
+    width:250px;
+}
+@media(max-width:769px){
+    .clients{
+        padding-bottom: 50px;
+}
+.clients div img{
+    width:100px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills .skills1 .skills11::before{
+    content: "___";
+}
+.skills .skills1 .skills11::after{
+    content: "_______";
+}
+.skills{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.skills .skills1 .skills11{
+    color:rgb(129, 37, 52);
+    font-size: 18px;
+}
+.skills .skills1 .skills12{
+    color:rgb(16, 16, 70);
+    font-size: 56px;
+}
+.skills .skills1 .skills13{
+    color:rgb(16, 16, 70);
+    font-size: 18px;
+}
+.skills .skills2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+    width:500px;
+    height:500px;
+}
+.skills .skills2 div{
+    color:rgb(16, 16, 70);
+    background-color: white;
+    border:2px solid black;
+    width:70px;
+    height:30px;
+    margin:50px;
+#ddiv2{
+    border-left: 2px solid blue;
+     border-right: 2px solid blue;
+      padding:0px 40px 0px 40px;
+}
+}
+@media(max-width:769px){
+    #dedication{
+        display: block;
+        padding:80px 50px 80px 50px;
+    }
+    #dedication #ddiv2{
+        border-left:none;
+        border-right: none;
+        padding:40px 0px 40px 0px;
+    }
+}

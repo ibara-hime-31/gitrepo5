@@ -1,0 +1,59 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    height:0px;
+    background-image: radial-gradient(blue,pink);
+}
+.point{
+    background-color: aqua;
+    width:500px;
+    height:600px;
+    position: absolute;
+    top:100px;
+    left:600px;
+    border:2px solid black;
+}
+.point1{
+    padding-top:50px;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom:2px solid grey;
+
+}
+.point2{
+    padding-top:50px;
+}
+.point2 input{
+    width:300px;
+    height:40px;
+    margin:30px;
+    border:none;
+    border-bottom:2px solid grey;
+    background-color: aqua;
+}
+.point2 input::placeholder{
+    font-size: 24px;
+    color:grey;
+}
+.point3 a{
+    text-decoration: none;
+    color:grey;
+}
+.point4{
+    width:300px;
+    height:30px;
+    font-size: 24px;
+    border-radius:20px;
+    margin:30px;
+    
+}
+.point51{
+    text-decoration: none;
+    color:grey;
+}
+.point52{
+    text-decoration: none;
+}

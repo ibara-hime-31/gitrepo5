@@ -1,0 +1,65 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(black,purple);
+}
+.v{
+    position: absolute;
+    height:500px;
+    width:400px;
+    background-color: purple;
+    top:100px;
+    left:500px;
+    color:white;
+}
+
+.v .v3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.v .v1{
+    padding-top: 100px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.v .v2 input{
+    width:300px;
+    height:40px;
+    margin:20px;
+    background-color: purple;
+}
+.v .v2 input::placeholder{
+    color:white;
+}
+.v .v5{
+    width:300px;
+    height:40px;
+    background-color: white;
+    border-radius:40px;
+    margin:20px;
+}
+.v .v3 .v32 a{
+    text-decoration: none;
+    color:white;
+}
+.v .v6 a{
+    text-decoration: none;
+    color:white;
+}
+.key1{
+    position: absolute;
+    top:270px;
+    left:800px;
+    z-index: 3;
+    color:white;
+}
+.key2{
+    position: absolute;
+    top:350px;
+    left:800px;
+    z-index: 3;
+    color:white;
+}

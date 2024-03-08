@@ -1,0 +1,25 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+table tr td{
+    color:blue
+}
+ul li a{
+    color:blueviolet;
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    padding:50px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    color:black
+}

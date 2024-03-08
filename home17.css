@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Protest Revolution', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1608555307638-992062b31329?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+}
+.nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav .firstnav{
+    list-style-type: none;
+    font-size: larger;
+}
+.nav .secondnav li a{
+ text-decoration: none;
+ padding:10px 20px 10px 20px;
+ margin:20px;
+ color:black;
+ background-color: white;
+ border-radius:40px ;
+}
+.nav .secondnav li{
+    list-style-type: none;
+}
+.nav .secondnav{
+    display:flex;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero .hero1{
+    padding-top: 300px;
+}
+.profile{
+    display:flex;
+    justify-content: space-evenly;
+}
+.profile .profile1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.profile .profile2{
+    padding-top: 400px;
+}
+.q ul li{
+    list-style-type: none;
+}
+.q{
+    padding-left: 100px;
+}

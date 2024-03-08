@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding:0px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/1216320205/display_1500/stock-photo-blank-blue-texture-surface-background-dark-corners-abstract-architecture-material-1216320205.jpg);
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav .starnav{
+    list-style-type: none;
+}
+.nav .midnav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav .midnav li a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+.nav .endnav{
+    list-style-type: none;  
+}
+.nav .endnav a{
+    text-decoration: none;
+    color:white;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.body .body1{
+    color: white;
+    padding-top: 200px;
+}
+.body .body2 img{
+    height:700px;
+    position: relative;
+    z-index: 3;
+}
+.body12{
+    padding-top: 30px;
+}
+.body12 i{
+font-size: 24px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 15px;
+margin:5px;
+
+}
+#over{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 600px;
+    padding-left: 600px;
+    padding-top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
